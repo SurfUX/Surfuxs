@@ -1,17 +1,15 @@
-SURFUX CLEAN URL / HOSTINGER SETUP
+SURFUX CLEAN URL - HOSTINGER
 
-The project now uses Apache .htaccess clean URLs.
+This version uses a Hostinger-compatible .htaccess file.
 
 Examples:
-  /index.php                 -> /
-  /pages/about.php           -> /pages/about
-  /pages/services.php        -> /pages/services
-  /pages/portfolio.php       -> /pages/portfolio
-  /pages/news.php            -> /pages/news
-  /pages/contact.php         -> /pages/contact
+  /index.php       -> /
+  /pages/about.php -> /pages/about
+  /pages/news.php  -> /pages/news
 
-PHP files remain on the server. The .htaccess file rewrites clean URLs
-internally to the corresponding .php files.
-
-Upload the project contents to the same folder that contains index.php
-(usually public_html). Clear browser/Hostinger cache after deployment.
+IMPORTANT:
+- Upload .htaccess to the SAME folder as index.php.
+- Do not rename or delete the PHP files.
+- This version intentionally does NOT use "Options -MultiViews",
+  because some hosting configurations return HTTP 500 for that directive.
+- If an old redirect is cached, test in an incognito/private window.

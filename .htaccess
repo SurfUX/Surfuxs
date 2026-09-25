@@ -1,19 +1,25 @@
 RewriteEngine On
 
-Options -MultiViews
+# -------------------------------------------------------
+# SURFUX CLEAN URLS
+# Hostinger / Apache
+# -------------------------------------------------------
 
-# Redirect /index.php to /
+# Redirect direct requests for index.php to the domain root
 RewriteCond %{THE_REQUEST} \s/+index\.php(?:[\s?]|$) [NC]
 RewriteRule ^index\.php$ / [R=301,L]
 
-# Redirect direct .php requests to clean URLs
-RewriteCond %{THE_REQUEST} \s/+(.+?)\.php(?:[\s?]|$) [NC]
+# Redirect direct requests for any .php page to its clean URL
+# Example: /pages/about.php -> /pages/about
+RewriteCond %{THE_REQUEST} \s/+(.+)\.php(?:[\s?]|$) [NC]
 RewriteRule ^(.+)\.php$ /$1 [R=301,L,NE]
 
-# Internally load .php for clean URLs
-RewriteCond %{REQUEST_FILENAME} !-d
+# Internally load the PHP file for a clean URL
+# Example: /pages/about -> /pages/about.php
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+?)/?$ $1.php [L]
 
+# Use index.php for the domain root
 DirectoryIndex index.php
