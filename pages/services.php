@@ -211,7 +211,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="text-link"
-                        href="<?= BASE_URL ?>/pages/caresphere"
+                        href="<?= BASE_URL ?>/pages/caresphere.php"
                     >
                         Explore CareSphere →
                     </a>
@@ -634,14 +634,14 @@ include __DIR__.'/../includes/header.php';
 
                 <a
                     class="btn btn-primary"
-                    href="<?= BASE_URL ?>/pages/contact?subject=Book%20a%20Demo?subject=Book%20a%20Demo"
+                    href="<?= BASE_URL ?>/pages/contact.php?subject=Book%20a%20Demo"
                 >
                     Book a Demo →
                 </a>
 
                 <a
                     class="btn btn-ghost"
-                    href="<?= BASE_URL ?>/pages/caresphere"
+                    href="<?= BASE_URL ?>/pages/caresphere.php"
                 >
                     Explore CareSphere
                 </a>

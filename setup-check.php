@@ -8,5 +8,5 @@ require_once __DIR__ . '/includes/config.php';
 <p><strong>BASE_URL:</strong> <?= htmlspecialchars(BASE_URL) ?></p>
 <p><strong>CSS file:</strong> <?= file_exists(__DIR__.'/assets/css/style.css') ? 'Found ✓' : 'Missing ✗' ?></p>
 <p><strong>PHP:</strong> <?= PHP_VERSION ?></p>
-<p><a href="<?= BASE_URL ?>/index">Open SurfUX website →</a></p>
+<p><a href="<?= BASE_URL ?>/index.php">Open SurfUX website →</a></p>
 </body></html>

@@ -116,13 +116,13 @@ include __DIR__ . '/includes/header.php';
             <div class="hero-actions">
 
                 <a class="btn btn-primary"
-                   href="<?= BASE_URL ?>/pages/portfolio">
+                   href="<?= BASE_URL ?>/pages/portfolio.php">
                     Explore our solutions
                     <span>→</span>
                 </a>
 
                 <a class="btn btn-ghos"
-                   href="<?= BASE_URL ?>/pages/contact">
+                   href="<?= BASE_URL ?>/pages/contact.php">
                     Start a project
                 </a>
 
@@ -301,7 +301,7 @@ include __DIR__ . '/includes/header.php';
             </p>
 
             <a class="text-link"
-               href="<?= BASE_URL ?>/pages/about">
+               href="<?= BASE_URL ?>/pages/about.php">
                 More about SurfUX →
             </a>
 
@@ -348,7 +348,7 @@ include __DIR__ . '/includes/header.php';
 
             <!-- CARE TECHNOLOGY -->
             <a class="service-card reveal"
-               href="<?= BASE_URL ?>/pages/services#care-technology#care-technology">
+               href="<?= BASE_URL ?>/pages/services.php#care-technology">
 
                 <span class="service-number">
                     01
@@ -377,7 +377,7 @@ include __DIR__ . '/includes/header.php';
 
             <!-- SOFTWARE DEVELOPMENT -->
             <a class="service-card reveal"
-               href="<?= BASE_URL ?>/pages/services#software#software">
+               href="<?= BASE_URL ?>/pages/services.php#software">
 
                 <span class="service-number">
                     02
@@ -406,7 +406,7 @@ include __DIR__ . '/includes/header.php';
 
             <!-- WEB DEVELOPMENT -->
             <a class="service-card reveal"
-               href="<?= BASE_URL ?>/pages/services#web#web">
+               href="<?= BASE_URL ?>/pages/services.php#web">
 
                 <span class="service-number">
                     03
@@ -435,7 +435,7 @@ include __DIR__ . '/includes/header.php';
 
             <!-- SOCIAL MEDIA -->
             <a class="service-card reveal"
-               href="<?= BASE_URL ?>/pages/services#social#social">
+               href="<?= BASE_URL ?>/pages/services.php#social">
 
                 <span class="service-number">
                     04
@@ -565,12 +565,12 @@ include __DIR__ . '/includes/header.php';
 
             <div class="hero-actions">
                 <a class="btn btn-primary"
-                   href="<?= BASE_URL ?>/pages/caresphere">
+                   href="<?= BASE_URL ?>/pages/caresphere.php">
                     Explore CareSphere →
                 </a>
 
                 <a class="btn btn-outline"
-                   href="<?= BASE_URL ?>/pages/contact?subject=CareSphere%20Demo?subject=CareSphere%20Demo">
+                   href="<?= BASE_URL ?>/pages/contact.php?subject=CareSphere%20Demo">
                     Book a Demo →
                 </a>
             </div>
@@ -706,7 +706,7 @@ include __DIR__ . '/includes/header.php';
             </div>
 
             <a class="btn btn-outline"
-               href="<?= BASE_URL ?>/pages/portfolio">
+               href="<?= BASE_URL ?>/pages/portfolio.php">
 
                 View all <?= count($home_portfolio) ?> projects →
 
@@ -720,7 +720,7 @@ include __DIR__ . '/includes/header.php';
             <?php foreach ($home_featured as $project): ?>
 
                 <a class="project-card client-home-project reveal"
-                   href="<?= BASE_URL ?>/pages/portfolio-details?id=<?= urlencode($project[?id=<?= urlencode($project['id']) ?>">
+                   href="<?= BASE_URL ?>/pages/portfolio-details.php?id=<?= urlencode($project['id']) ?>">
 
                     <div class="project-image client-home-project-image">
 
@@ -1252,7 +1252,7 @@ include __DIR__ . '/includes/header.php';
             </p>
 
             <a class="btn btn-outline"
-               href="<?= BASE_URL ?>/pages/contact">
+               href="<?= BASE_URL ?>/pages/contact.php">
                 Ask us directly →
             </a>
 
@@ -1416,12 +1416,12 @@ include __DIR__ . '/includes/header.php';
             <div class="hero-actions cta-actions">
 
                 <a class="btn btn-primary"
-                   href="<?= BASE_URL ?>/pages/contact?subject=Book%20a%20Demo?subject=Book%20a%20Demo">
+                   href="<?= BASE_URL ?>/pages/contact.php?subject=Book%20a%20Demo">
                     Book a Demo →
                 </a>
 
                 <a class="btn btn-outline"
-                   href="<?= BASE_URL ?>/pages/portfolio">
+                   href="<?= BASE_URL ?>/pages/portfolio.php">
                     See our work
                 </a>
 

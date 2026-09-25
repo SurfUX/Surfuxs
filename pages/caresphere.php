@@ -120,7 +120,7 @@ include __DIR__.'/../includes/header.php';
 
                 <a
                     class="btn btn-primary"
-                    href="<?= BASE_URL ?>/pages/contact"
+                    href="<?= BASE_URL ?>/pages/contact.php"
                 >
                     Book a Demo →
                 </a>
@@ -699,7 +699,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="btn btn-primary"
-                        href="<?= BASE_URL ?>/pages/contact"
+                        href="<?= BASE_URL ?>/pages/contact.php"
                     >
                         Book a Demo — CareSphere Elder →
                     </a>
@@ -784,7 +784,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="btn btn-primary"
-                        href="<?= BASE_URL ?>/pages/contact"
+                        href="<?= BASE_URL ?>/pages/contact.php"
                     >
                         Book a Demo — CareSphere Child →
                     </a>
@@ -894,7 +894,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="btn btn-primary"
-                        href="<?= BASE_URL ?>/pages/contact"
+                        href="<?= BASE_URL ?>/pages/contact.php"
                     >
                         Book a Demo — CareSphere Residential →
                     </a>
@@ -987,7 +987,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="btn btn-primary"
-                        href="<?= BASE_URL ?>/pages/contact"
+                        href="<?= BASE_URL ?>/pages/contact.php"
                     >
                         Book a Demo — CareSphere Charity →
                     </a>
@@ -1043,7 +1043,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="btn btn-primary"
-                        href="<?= BASE_URL ?>/pages/contact"
+                        href="<?= BASE_URL ?>/pages/contact.php"
                     >
                         Book a Demo — CareSphere Elder →
                     </a>
@@ -1444,14 +1444,14 @@ include __DIR__.'/../includes/header.php';
 
                 <a
                     class="btn btn-primary"
-                    href="<?= BASE_URL ?>/pages/contact"
+                    href="<?= BASE_URL ?>/pages/contact.php"
                 >
                     Book a CareSphere Demo →
                 </a>
 
                 <a
                     class="btn "
-                    href="<?= BASE_URL ?>/pages/services"
+                    href="<?= BASE_URL ?>/pages/services.php"
                 >
                     Explore Our Services
                 </a>

@@ -123,7 +123,7 @@ include __DIR__.'/../includes/header.php';
 
                 <a
                     class="news-art"
-                    href="<?= BASE_URL ?>/pages/news-details?id=<?= urlencode($n[?id=<?= urlencode($n['id']) ?>"
+                    href="<?= BASE_URL ?>/pages/news-details.php?id=<?= urlencode($n['id']) ?>"
                     aria-label="Read <?= htmlspecialchars($n['title']) ?>"
                 >
 
@@ -171,7 +171,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="text-link"
-                        href="<?= BASE_URL ?>/pages/news-details?id=<?= urlencode($n[?id=<?= urlencode($n['id']) ?>"
+                        href="<?= BASE_URL ?>/pages/news-details.php?id=<?= urlencode($n['id']) ?>"
                     >
                         Read full story →
                     </a>

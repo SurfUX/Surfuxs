@@ -30,7 +30,7 @@
 
       <!-- Brand -->
       <div class="sux-footer-brand">
-        <a href="/surfs/index" class="logo d-flex align-items-center">
+        <a href="/surfs/index.php" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="<?= BASE_URL ?>/assets/img/portfolio/logo.webp" > 
           <!-- <h1 class="sitename">SurfUX</h1> -->
@@ -47,7 +47,7 @@
         Contact -  +94 71 240 3458
         </p>
 
-        <a class="sux-footer-project-link" href="<?= BASE_URL ?>/pages/contact">
+        <a class="sux-footer-project-link" href="<?= BASE_URL ?>/pages/contact.php">
           Start a project <span>→</span>
         </a>
       </div>
@@ -57,10 +57,10 @@
       <div class="sux-footer-column">
         <h4>Company</h4>
 
-        <a href="<?= BASE_URL ?>/pages/about">About Us</a>
-        <a href="<?= BASE_URL ?>/pages/services">Services</a>
-        <a href="<?= BASE_URL ?>/pages/portfolio">Our Work</a>
-        <a href="<?= BASE_URL ?>/pages/contact">Contact</a>
+        <a href="<?= BASE_URL ?>/pages/about.php">About Us</a>
+        <a href="<?= BASE_URL ?>/pages/services.php">Services</a>
+        <a href="<?= BASE_URL ?>/pages/portfolio.php">Our Work</a>
+        <a href="<?= BASE_URL ?>/pages/contact.php">Contact</a>
       </div>
 
 
@@ -68,11 +68,11 @@
       <div class="sux-footer-column">
         <h4>Services</h4>
 
-        <a href="<?= BASE_URL ?>/pages/services">Web Development</a>
-        <a href="<?= BASE_URL ?>/pages/services">Software Development</a>
-        <a href="<?= BASE_URL ?>/pages/services">UI / UX Design</a>
-        <a href="<?= BASE_URL ?>/pages/services">Social Media Marketing</a>
-        <a href="<?= BASE_URL ?>/pages/services">Graphic Design</a>
+        <a href="<?= BASE_URL ?>/pages/services.php">Web Development</a>
+        <a href="<?= BASE_URL ?>/pages/services.php">Software Development</a>
+        <a href="<?= BASE_URL ?>/pages/services.php">UI / UX Design</a>
+        <a href="<?= BASE_URL ?>/pages/services.php">Social Media Marketing</a>
+        <a href="<?= BASE_URL ?>/pages/services.php">Graphic Design</a>
       </div>
 
 
@@ -80,10 +80,10 @@
       <div class="sux-footer-column">
         <h4>Products</h4>
 
-        <a href="<?= BASE_URL ?>/pages/portfolio">CareSphere Elder</a>
-        <a href="<?= BASE_URL ?>/pages/portfolio">CareSphere Child</a>
-        <a href="<?= BASE_URL ?>/pages/portfolio">CareSphere Residential</a>
-        <a href="<?= BASE_URL ?>/pages/portfolio">CareSphere Charity</a>
+        <a href="<?= BASE_URL ?>/pages/portfolio.php">CareSphere Elder</a>
+        <a href="<?= BASE_URL ?>/pages/portfolio.php">CareSphere Child</a>
+        <a href="<?= BASE_URL ?>/pages/portfolio.php">CareSphere Residential</a>
+        <a href="<?= BASE_URL ?>/pages/portfolio.php">CareSphere Charity</a>
       </div>
 
     </div>

@@ -263,7 +263,7 @@ include __DIR__.'/../includes/header.php';
             </p>
 
             <a class="btn btn-primary"
-               href="<?= BASE_URL ?>/pages/caresphere">
+               href="<?= BASE_URL ?>/pages/caresphere.php">
                 Explore CareSphere →
             </a>
 
@@ -540,7 +540,7 @@ include __DIR__.'/../includes/header.php';
             </p>
 
             <a class="btn btn-primary"
-               href="<?= BASE_URL ?>/pages/contact">
+               href="<?= BASE_URL ?>/pages/contact.php">
                 Start a conversation →
             </a>
 

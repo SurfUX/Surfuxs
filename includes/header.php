@@ -36,7 +36,7 @@ $current = basename($_SERVER['PHP_SELF']);
   <div class="container nav-wrap">
 
     
-    <a href="<?= BASE_URL ?>/index" class="logo d-flex align-items-center">
+    <a href="<?= BASE_URL ?>/index.php" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
          <img src="<?= BASE_URL ?>/assets/img/portfolio/logo.webp" > 
           <!-- <h1 class="sitename">SurfUX</h1> -->
@@ -50,38 +50,38 @@ $current = basename($_SERVER['PHP_SELF']);
     <nav class="main-nav">
 
       <a class="<?= $current==='index.php'?'active':'' ?>"
-         href="<?= BASE_URL ?>/index">
+         href="<?= BASE_URL ?>/index.php">
         Home
       </a>
 
       <a class="<?= $current==='about.php'?'active':'' ?>"
-         href="<?= BASE_URL ?>/pages/about">
+         href="<?= BASE_URL ?>/pages/about.php">
         About
       </a>
 
       <a class="<?= $current==='services.php'?'active':'' ?>"
-         href="<?= BASE_URL ?>/pages/services">
+         href="<?= BASE_URL ?>/pages/services.php">
         Services
       </a>
 
       <a class="<?= in_array($current,['portfolio.php','portfolio-details.php'])?'active':'' ?>"
-         href="<?= BASE_URL ?>/pages/portfolio">
+         href="<?= BASE_URL ?>/pages/portfolio.php">
         Portfolio
       </a>
 
       <a class="<?= in_array($current,['news.php','news-details.php'])?'active':'' ?>"
-         href="<?= BASE_URL ?>/pages/news">
+         href="<?= BASE_URL ?>/pages/news.php">
         News
       </a>
 
       
 
       <a class="nav-cta"
-         href="<?= BASE_URL ?>/pages/contact">
+         href="<?= BASE_URL ?>/pages/contact.php">
         Let's talk <span>→</span>
       </a>
       <a class="nav-pcta"
-         href="<?= BASE_URL ?>/pages/caresphere">
+         href="<?= BASE_URL ?>/pages/caresphere.php">
         CareSphere <span>→</span>
       </a>
 

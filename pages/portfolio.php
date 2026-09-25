@@ -385,7 +385,7 @@ foreach ($portfolio as $p) {
                         <!-- Project Image -->
 
                         <a
-                            href="<?= BASE_URL ?>/pages/portfolio-details?id=<?= urlencode($p[?id=<?= urlencode($p['id']) ?>"
+                            href="<?= BASE_URL ?>/pages/portfolio-details.php?id=<?= urlencode($p['id']) ?>"
                             class="client-project-image"
                         >
 
@@ -456,7 +456,7 @@ foreach ($portfolio as $p) {
 
                             <a
                                 class="text-link"
-                                href="<?= BASE_URL ?>/pages/portfolio-details?id=<?= urlencode($p[?id=<?= urlencode($p['id']) ?>"
+                                href="<?= BASE_URL ?>/pages/portfolio-details.php?id=<?= urlencode($p['id']) ?>"
                             >
                                 View project →
                             </a>

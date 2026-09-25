@@ -37,7 +37,7 @@ include __DIR__.'/../includes/header.php';
 
                 <a
                     class="btn btn-primary"
-                    href="<?= BASE_URL ?>/pages/contact"
+                    href="<?= BASE_URL ?>/pages/contact.php"
                 >
                     Customize Your Package →
                 </a>
@@ -674,7 +674,7 @@ include __DIR__.'/../includes/header.php';
 
                     <a
                         class="btn btn-primary"
-                        href="<?= BASE_URL ?>/pages/contact"
+                        href="<?= BASE_URL ?>/pages/contact.php"
                     >
                         Build My Custom Package →
                     </a>
@@ -1001,7 +1001,7 @@ include __DIR__.'/../includes/header.php';
 
             <a
                 class="btn btn-primary"
-                href="<?= BASE_URL ?>/pages/contact"
+                href="<?= BASE_URL ?>/pages/contact.php"
             >
                 Contact SurfUX →
             </a>

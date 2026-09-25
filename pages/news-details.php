@@ -268,7 +268,7 @@ if (!$article) {
 
                 <a
                     class="btn btn-primary"
-                    href="<?= BASE_URL ?>/pages/news"
+                    href="<?= BASE_URL ?>/pages/news.php"
                 >
                     Back to news →
                 </a>
@@ -349,7 +349,7 @@ include __DIR__ . '/../includes/header.php';
 
             <a
                 class="back-link"
-                href="<?= BASE_URL ?>/pages/news"
+                href="<?= BASE_URL ?>/pages/news.php"
             >
                 ← Back to news
             </a>
@@ -533,7 +533,7 @@ include __DIR__ . '/../includes/header.php';
 
             <a
                 class="btn btn-outline"
-                href="<?= BASE_URL ?>/pages/news"
+                href="<?= BASE_URL ?>/pages/news.php"
             >
                 View all news →
             </a>
